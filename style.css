@@ -62,6 +62,7 @@ nav a:hover{
     
 }
 .pocetnaslika{
+  content: url("slike/Jinxpocetna.jpg");
     
     width: 100%;
     height: auto;
@@ -69,6 +70,7 @@ nav a:hover{
     
 }
 .kolicapocetna{
+    content: url("slike/kolicapocetna.png");
         top: 40%;
         width: 100px;
         height: 100px;
@@ -79,7 +81,8 @@ nav a:hover{
         animation-duration: 3s;
         animation-delay: 0s;
         animation-iteration-count: 5;
-    }
+        
+      }
       
       @keyframes example {
         0%   {left:0; }
@@ -142,9 +145,40 @@ form {
     transform: scale(1.1);
   }
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 768px) and (max-height: 1024px) {
     .shop-item {
       width: 100%;
       clear: both; 
     }
+    
+  }
+  @media only screen and (max-width: 320px) and (max-height: 425px) {
+    .shop-item {
+      width: 100%; 
+    }
+  }
+  .ahrifigurica{
+    content: url("slike/ahrifigurica.png");
+  }
+  .gnarfigurica{
+    content: url("slike/gnarfigurica.png");
+  }
+  .haimerfigurica{
+    content: url("slike/haimerfigurica.png");
+
+  }
+  .jaxfigurica{content: url("slike/jaxfigurica.png");}
+  .yasuofigurica{content: url('slike/yasuofigurica.jpg');}
+  .kaynfigurica{content: url("slike/kaynfigurica.jpg");}
+
+  .img h1{
+    position: absolute;
+    margin-left: 35%;
+    color: white;
+    margin-top: 15%;
+  
+  
+  
+  
+  
   }
